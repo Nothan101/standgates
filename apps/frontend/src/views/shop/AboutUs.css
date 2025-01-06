@@ -1,0 +1,57 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .our-story, .our-values, .locations, .contact-us {
+    margin: 40px 0;
+  }
+  
+  .our-values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .our-values li {
+    margin: 10px 0;
+  }
+  
+  .locations .location-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .location-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .contact-us a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  
