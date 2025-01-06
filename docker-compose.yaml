@@ -18,7 +18,7 @@ services:
 
   db:
     container_name: db
-    image: postgres:15-alpine
+    image: postgres:16-alpine
     ports:
       - "5432:5432"
     env_file:
@@ -45,6 +45,7 @@ services:
       dockerfile: apps/docker/nginx/Dockerfile
     ports:
       - "80:80"
+    
     volumes:
       - static:/apps/backend/static
       - media:/apps/backend/media
